@@ -1,0 +1,19 @@
+{
+  "name": "target",
+  "version": "1.0.0",
+  "description": "Target gift card landing page",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild analytics.js --bundle --outfile=analytics.bundle.js --format=iife",
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
