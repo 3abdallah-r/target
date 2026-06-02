@@ -441,11 +441,24 @@
   idx = 1;
   setInterval(showNext, 2800);
 
+  // ... your toggleFaq function ...
   function toggleFaq(q) {
     const item = q.parentElement;
     const isOpen = item.classList.contains("open");
     document.querySelectorAll(".faq-item.open").forEach(i => i.classList.remove("open"));
     if (!isOpen) item.classList.add("open");
   }
-  </body>
+</script>
+
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+
+</body>
 </html>
