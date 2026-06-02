@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "echo 'No build step required'"
-}
-
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step required'"
   },
   "repository": {
     "type": "git",
@@ -25,5 +22,6 @@
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0"
-  }
+  },
+  "devDependencies": {}
 }
