@@ -220,7 +220,15 @@
   }
   .footer-fine { font-size:9.5px; color:#bbb; line-height:1.65; max-width:360px; margin:0 auto; }
 </style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
 <script defer src="/_vercel/insights/script.js"></script>
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
 <body>
 
@@ -439,15 +447,3 @@
     document.querySelectorAll(".faq-item.open").forEach(i => i.classList.remove("open"));
     if (!isOpen) item.classList.add("open");
   }
-</script>
-  <script type="module">
-  import { inject } from "@vercel/analytics";
-  inject();
-</script>
-  
-  <script type="module">
-  import { injectSpeedInsights } from "@vercel/speed-insights";
-  injectSpeedInsights();
-</script>
-</body>
-</html>
