@@ -444,5 +444,10 @@
   import { inject } from "@vercel/analytics";
   inject();
 </script>
+  
+  <script type="module">
+  import { injectSpeedInsights } from "@vercel/speed-insights";
+  injectSpeedInsights();
+</script>
 </body>
 </html>
